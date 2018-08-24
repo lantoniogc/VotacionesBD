@@ -1,0 +1,212 @@
+body {
+	background-image: url(../img/background.jpg);
+	background-position: center;
+	background-origin: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-right: 20px;
+	margin-top: 0px;
+	margin-left: 0px;
+	font-family: Roboto;
+}
+
+::placeholder{
+	color: #FFFFFF;
+}
+
+@font-face{
+	font-family: Roboto-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	src: url(../font/Roboto-Regular.ttf);
+}
+
+/*********************** login.php ***********************/
+
+#superior{
+	background-color: #3C8DBC;
+	width: 100%;
+	height: 2.5em;
+	font-size: 20px;
+}
+
+#superior #inicio{
+	background-color: #367FA9;
+	color: #FFFFFF;
+	margin-top: 0px;
+	text-align: top;
+	text-decoration: none;
+	display: inline-block;
+	width: 190px;
+	margin-top: -8px;
+	height: .8em;
+	padding: 1em;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+#superior #inicio:hover{
+	background-color: #307298;
+}
+
+#superior #ayuda{
+	background-color: #3C8DBC;
+	color: #FFFFFF;
+	float: right;
+	text-align: right;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: -20px;
+	margin-top: -4px;
+	height: .7em;
+	padding: 1em;
+	font-size: 20px;
+}
+
+#superior #ayuda:hover{
+	background: #307298;
+}
+
+#superior #ayuda:active{
+	background: #307298;
+	font-size: 19.5px;
+}
+
+#login{
+	background-color: #367FA9;
+	color: white;
+	border: 4px solid;
+	border-color: #393F45;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	border-radius: 2em;
+	margin-right:35%; 
+	margin-left:36%;
+	margin-top: 4%;
+	width: 20em;
+	height: 20em;
+	padding: 0.5em;
+}
+
+#login img{
+	margin-left: 6em;
+	margin-bottom: 1em;
+}
+
+#login a{
+	margin-top: -10px;
+	text-align: center;
+	color: #000000;
+}
+
+#inferior{
+	margin-top: .5em;
+	margin-left: 36em;
+}
+
+#inferior input[type="checkbox"]{
+	margin-left: 1em;
+}
+
+#inferior button{
+	background: #367FA9;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 1.25em;
+	margin: 0.2em;
+	padding: 10px 0px;
+	text-align: center;
+	width: 7em;
+	text-decoration: none;
+	color: white;
+	box-shadow: 3px 3px 3px #4A5253;
+}
+
+#inferior button:hover{
+	box-shadow: 0px 0px 0px;
+	padding-top: 8px;
+}
+
+/*********************** registro.php ***********************/
+
+#formulario-registro{
+	background-color: #367FA9;
+	color: white;
+	border: 4px solid;
+	border-color: #393F45;
+	text-align: center;
+	border-radius: 2em;
+	margin-right:35%; 
+	margin-left:31%;
+	margin-top: 4%;
+	width: 30em;
+	height: 24em;
+}
+
+#formulario-registro h2{
+	width: 100%;
+	text-align: center;
+	padding: 1em 0 1em;
+	margin-bottom: -0.5em;
+}
+
+h2 span{
+	color: #393F45;
+}
+
+.input{
+	background: #367FA9;
+	margin: .8em;
+	width: 20em;
+	padding: 1em;
+	border: none;
+	outline: none;
+	border-bottom: solid #FFFFFF .2em;
+	transition: all .3s; 
+}
+
+.input:focus{
+	border-bottom-color: #393F45;
+}
+
+#botones .boton-aceptar, .boton-registrar, .boton-limpiar, .boton-cancelar{
+	background: #367FA9;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 1.25em;
+	margin-top: 1em;
+	padding: 10px 0px;
+	text-align: center;
+	width: 7em;
+	text-decoration: none;
+	color: white;
+	box-shadow: 3px 3px 3px #4A5253;
+}
+
+#botones .boton-registrar{
+	margin-left: 20em;
+}
+
+#botones .boton-aceptar{
+	margin-left: 25em;
+}
+
+#botones .boton-limpiar{
+	margin-left: 2em;
+}
+
+#botones .boton-cancelar{
+	margin-left: 2em;
+}
+
+#botones  .boton-registrar:hover, .boton-limpiar:hover, .boton-cancelar:hover, .boton-aceptar:hover{
+	box-shadow: 0px 0px 0px;
+	padding-top: 8px;
+}
+
+#botoncito{
+	position: relative;
+	float: right;
+	}

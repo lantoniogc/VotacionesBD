@@ -1,0 +1,46 @@
+/*-----------------------------------------------------------------------------------------*/
+/*                         Cargar Tipografia Fisica                                        */
+@font-face {
+    font-family: "Indie Flower";
+    src: url(..//Font/IndieFlower.ttf) format("truetype");
+}
+/*-----------------------------------------------------------------------------------------*/
+
+.Logo-UCAB{  
+    margin-top: 2%;
+    margin-bottom: 1%; 
+    height: 80px;
+    width: 350px; 
+    display: inline-block;   
+}
+
+.Titulo {  
+    background-color: #2A8EAC;
+    color: #ffffff;
+    display: inline-block;   
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-size: 2.3em; 
+    text-align: center; 
+    padding: 20px; 
+    width: 100%;  
+}  
+ 
+.Tablas { 
+    border: 1px solid #ccc;     
+    width: 75%; 
+    margin: 1% auto; 
+}
+
+.Tittle-Table{
+    width: 75%; 
+    margin: 1% auto;  
+}
+
+.Separador{
+    margin: 6% auto; 
+}
+
+.page-break {
+    page-break-after: always;
+}
