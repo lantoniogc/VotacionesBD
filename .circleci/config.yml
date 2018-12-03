@@ -39,6 +39,9 @@ jobs:
             - ./vendor
           key: v1-dependencies-{{ checksum "composer.json" }}
 
+      # App key
+      - run: php artisan key:generate
+
       # run tests!
       - run:
           name: Run Unit tests
