@@ -10,9 +10,10 @@ jobs:
       - run:
           name: Install system packages
           command: apt-get update && apt-get -y install git
+      - run: sudo apt-get install -y libpng-dev
       - run:
           name: Install PHP extensions
-          command: docker-php-ext-install pdo
+          command: sudo docker-php-ext-install gd
       - checkout
       - run:
           name: Install Composer
