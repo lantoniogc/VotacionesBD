@@ -41,8 +41,5 @@ jobs:
 
       # run tests!
       - run:
-          name: Run CS tests
-          command: vendor/bin/phpcs
-      - run:
           name: Run Unit tests
           command: vendor/bin/phpunit
