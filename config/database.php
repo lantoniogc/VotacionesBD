@@ -60,7 +60,7 @@ return [
             'port' => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'votacionesbd'),
             'username' => env('DB_USERNAME', 'postgres'),
-            'password' => env('DB_PASSWORD', '12345'),
+            'password' => env('DB_PASSWORD', '123456'),
             'charset' => 'utf8',
             'prefix' => '',
             'schema' => 'public',

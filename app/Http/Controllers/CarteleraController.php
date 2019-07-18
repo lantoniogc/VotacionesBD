@@ -22,7 +22,7 @@ class CarteleraController extends Controller
     }
 
     public function indexPage(){
-        $news = \DB::table('cartelerainfo')->orderby('idart','desc')->paginate(3);
+        $news = \DB::table('cartelerainfo')->orderby('idart','descrip')->paginate(3);
 
         /*$news = \DB::select(
             '
@@ -32,9 +32,9 @@ class CarteleraController extends Controller
             '
         );*/
 
-        $lastnew = \DB::table('cartelerainfo')->orderby('idart','desc')->first();
+        $lastnew = \DB::table('cartelerainfo')->orderby('idart','descrip')->first();
         $carouselnews = \DB::table('cartelerainfo')->whereRaw('idart < (SELECT MAX(idart) FROM cartelerainfo)')->orderby('idart','desc')->take(2)->get();
-        
+
         return view('home', compact('news','lastnew','carouselnews'));
     }
 
