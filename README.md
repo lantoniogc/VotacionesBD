@@ -22,6 +22,7 @@
 * **Andres Pestana** - Frontend
 * **Erick Espinoza** - Frontend
 * **Julio Flores** - Database
+* **Rosa Guevara** - Frontend
 
 ## License
 
